@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Equipos</title>
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <h1>LOGO</h1>
+        </div>
+        <div class="navbar-links">
+            <a href="home.html">Inicio</a>
+            <a href="#">Cursos</a>
+            <a href="#">Ayuda</a>
+            <a href="#">Perfil</a>
+        </div>
+        <div class="navbar-search">
+            <input type="text" placeholder="Buscar">
+        </div>
+        <div class="navbar-icono">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="50px"><path d="M406.5 399.6C387.4 352.9 341.5 320 288 320l-64 0c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3l64 0c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z"/></svg>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Barra lateral -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <ul>
+                    <li>Material</li>
+                    <li>Proveedores</li>
+                    <li>Departamentos</li>
+                    <li>Directorio</li>
+                    <li>Formación</li>
+                    <li>Configuración</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Contenido principal -->
+        <main class="content">
+            <!-- Listado de equipos -->
+            <div class="equipos-lista">
+                <!-- Encabezados -->
+                <div class="grid-header">
+                    <div>Equipo</div>
+                    <div>Etiqueta</div>
+                    <div>Estado</div>
+                    <div>
+                        <a href="detail.html" class="btn-agregar">Agregar</a>
+                    </div>
+                </div>
+
+                <!-- Equipos -->
+                <div class="grid-row">
+                    <div><img src="imagen.png" alt="Imagen del producto" width="50px"></div>
+                    <div>Portátil Lenovo Thinkpad</div>
+                    <div>E020345</div>
+                    <div>En reparación</div>
+                    <div class="acciones">
+                        <button class="btn-borrar">Borrar</button>
+                        <a href="detail.html" class="btn-editar">Editar</a>
+                    </div>
+                </div>
+
+                <div class="grid-row">
+                    <div><img src="imagen.png" alt="Imagen del producto" width="50px"></div>
+                    <div>Portátil Lenovo Thinkpad</div>
+                    <div>E020345</div>
+                    <div>En stock</div>
+                    <div class="acciones">
+                        <button class="btn-borrar">Borrar</button>
+                        <a href="detail.html" class="btn-editar">Editar</a>
+                    </div>
+                </div>
+
+                <div class="grid-row">
+                    <div><img src="imagen.png" alt="Imagen del producto" width="50px"></div>
+                    <div>Portátil Lenovo Thinkpad</div>
+                    <div>E020345</div>
+                    <div>En stock</div>
+                    <div class="acciones">
+                        <button class="btn-borrar">Borrar</button>
+                        <a href="detail.html" class="btn-editar">Editar</a>
+                    </div>
+                </div>
+
+                <div class="grid-row">
+                    <div><img src="imagen.png" alt="Imagen del producto" width="50px"></div>
+                    <div>Portátil Lenovo Thinkpad</div>
+                    <div>E020345</div>
+                    <div>Mon</div>
+                    <div class="acciones">
+                        <button class="btn-borrar">Borrar</button>
+                        <a href="detail.html" class="btn-editar">Editar</a>
+                    </div>
+                </div>
+
+                <div class="grid-row">
+                    <div><img src="imagen.png" alt="Imagen del producto" width="50px"></div>
+                    <div>Portátil Lenovo Thinkpad</div>
+                    <div>E020345</div>
+                    <div>Tony</div>
+                    <div class="acciones">
+                        <button class="btn-borrar">Borrar</button>
+                        <a href="detail.html" class="btn-editar">Editar</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#" class>2025 KeepCoding</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contactar</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
